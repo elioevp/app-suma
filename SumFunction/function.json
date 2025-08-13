@@ -15,6 +15,14 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
+    },
+    {
+      "name": "cosmosDB",
+      "type": "cosmosDB",
+      "databaseName": "sumadb",
+      "containerName": "suma-xy",
+      "connection": "CosmosDbConnectionString",
+      "direction": "out"
     }
   ]
 }
